@@ -1,0 +1,66 @@
+{
+  "id" : "https://tgra.github.io/rct/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in tgra/rct project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 608,
+    "id" : "https://tgra.github.io/rct/images/default/canvas/",
+    "label" : {
+      "none" : [ "default" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://tgra.github.io/rct/images/default/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://tgra.github.io/rct/images/default/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 19,
+              "height" : 25
+            }, {
+              "width" : 38,
+              "height" : 50
+            }, {
+              "width" : 76,
+              "height" : 100
+            }, {
+              "width" : 152,
+              "height" : 200
+            }, {
+              "width" : 304,
+              "height" : 400
+            }, {
+              "width" : 608,
+              "height" : 800
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 608,
+            "@id" : "https://tgra.github.io/rct/images/default",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 800
+          } ],
+          "format" : "image/jpeg",
+          "width" : 608,
+          "id" : "https://tgra.github.io/rct/images/default/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 800
+        },
+        "target" : "https://tgra.github.io/rct/images/default/canvas/"
+      } ]
+    } ],
+    "height" : 800
+  } ]
+}
