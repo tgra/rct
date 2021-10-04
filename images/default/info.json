@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 19,
+    "height" : 25
+  }, {
+    "width" : 38,
+    "height" : 50
+  }, {
+    "width" : 76,
+    "height" : 100
+  }, {
+    "width" : 152,
+    "height" : 200
+  }, {
+    "width" : 304,
+    "height" : 400
+  }, {
+    "width" : 608,
+    "height" : 800
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 608,
+  "@id" : "https://tgra.github.io/rct/images/default",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 800
+}
