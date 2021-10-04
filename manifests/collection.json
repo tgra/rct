@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : null,
-    "@id" : "https://tgra.github.io/rct/manifests/info.json",
-    "label" : null
-  } ]
+  "items" : [ ]
 }
