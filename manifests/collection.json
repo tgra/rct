@@ -1,0 +1,13 @@
+{
+  "id" : "https://tgra.github.io/rct/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in tgra/rct project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : null,
+    "@id" : "https://tgra.github.io/rct/manifests/info.json",
+    "label" : null
+  } ]
+}
